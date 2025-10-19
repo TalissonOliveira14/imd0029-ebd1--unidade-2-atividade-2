@@ -5,6 +5,13 @@
 
 using namespace std;
 
+// Função alternativa para to_string se houver problemas
+string intToString(int value) {
+    char buffer[20];
+    snprintf(buffer, sizeof(buffer), "%d", value);
+    return string(buffer);
+}
+
 void testInsert()
 {
     Sequence *sequence = new Sequence();
@@ -15,13 +22,13 @@ void testInsert()
     for(int i = 1; i <= 10; i++)
     {
         int qtBefore = sequence->getQuantity();
-        string inserted = baseStr + to_string(i);
+        string inserted = baseStr + intToString(i);
         
         sequence->insert(i, inserted);
         
         for(int j = 1; j < i; j++)
         {
-            std::string current = sequence->get(j);
+            string current = sequence->get(j);
             assert( current != inserted );
         }
         
