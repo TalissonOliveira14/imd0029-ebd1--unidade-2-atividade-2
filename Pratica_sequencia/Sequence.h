@@ -1,4 +1,4 @@
-##ifndef __Sequence__Sequence__
+#ifndef __Sequence__Sequence__
 #define __Sequence__Sequence__
 
 #include <iostream>
