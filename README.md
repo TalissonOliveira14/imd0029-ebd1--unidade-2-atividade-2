@@ -11,19 +11,22 @@ TAD Sequência: Implementado com lista encadeada
 
 TAD Conjunto: Implementado com array dinâmico
 
-🏗️ Estrutura do Projeto
-text
+ Estrutura do Projeto
+
 imd0029-ebd1--unidade-2-atividade-2/
-├── Pratica_conjunto/          # TAD Conjunto (Array Dinâmico)
-│   ├── Set.hpp               # Interface do conjunto
-│   ├── ArraySet.cpp          # Implementação do conjunto
-│   └── main.cpp              # Testes do conjunto
-├── Pratica_sequencia/        # TAD Sequência (Lista Encadeada)
-│   ├── Sequence.h            # Interface da sequência
-│   ├── Node.h                # Nó da lista encadeada
-│   ├── ListSequence.cpp      # Implementação da sequência
-│   └── TestSequence.cpp      # Testes da sequência
-└── README.md                 # Este relatório
+├── Pratica_conjunto/ # TAD Conjunto (Array Dinâmico)
+│ ├── Set.hpp # Interface do conjunto
+│ ├── ArraySet.cpp # Implementação do conjunto
+│ └── main.cpp # Testes do conjunto
+├── Pratica_sequencia/ # TAD Sequência (Lista Encadeada)
+│ ├── Sequence.h # Interface da sequência
+│ ├── Node.h # Nó da lista encadeada
+│ ├── ListSequence.cpp # Implementação da sequência
+│ └── TestSequence.cpp # Testes da sequência
+├── prints/ # Imagens dos testes
+│ ├── TAD_conjunto.png # Resultado TAD Conjunto
+│ └── TAD_sequencia.png # Resultado TAD Sequência
+└── README.md # Este relatório           
  TAD Conjunto (Array Dinâmico)
 Métodos Implementados
 add(element): Adiciona elemento se não existir (sem duplicatas)
@@ -52,9 +55,8 @@ bash
 cd Pratica_conjunto
 g++ main.cpp ArraySet.cpp -o conjunto
 ./conjunto
-Resultado dos Testes
-
-<img width="762" height="369" alt="TAD_conjunto" src="https://github.com/user-attachments/assets/e481e39b-374c-485c-851d-0ecc306682fe" />
+Resultado dos Testes - TAD Conjunto
+![Teste TAD Conjunto](./prints/TAD_conjunto.png)
 
 
 text
@@ -102,9 +104,8 @@ bash
 cd Pratica_sequencia
 g++ TestSequence.cpp ListSequence.cpp -o sequencia
 ./sequencia
-Resultado dos Testes
-<img width="838" height="298" alt="TAD_sequencia" src="https://github.com/user-attachments/assets/45ffbd0b-7cac-4c8e-b188-f146d363f685" />
-
+Resultado dos Testes - TAD Sequência  
+![Teste TAD Sequência](./prints/TAD_sequencia.png)
 
 text
 TestInsertBegin OK
@@ -179,4 +180,4 @@ Trabalho em equipe com controle de versão
  Links
 Repositório GitHub: https://github.com/TalissonOliveira14/imd0029-ebd1--unidade-2-atividade-2
 
-Desenvolvido como atividade da disciplina Estruturas de Dados Básicas I - 2024
+Desenvolvido como atividade da disciplina Estruturas de Dados Básicas I - 2025
