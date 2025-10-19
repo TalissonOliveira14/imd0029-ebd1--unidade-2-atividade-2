@@ -14,19 +14,20 @@ TAD Conjunto: Implementado com array dinâmico
  Estrutura do Projeto
 
 imd0029-ebd1--unidade-2-atividade-2/
-├── Pratica_conjunto/ # TAD Conjunto (Array Dinâmico)
-│ ├── Set.hpp # Interface do conjunto
-│ ├── ArraySet.cpp # Implementação do conjunto
-│ └── main.cpp # Testes do conjunto
-├── Pratica_sequencia/ # TAD Sequência (Lista Encadeada)
-│ ├── Sequence.h # Interface da sequência
-│ ├── Node.h # Nó da lista encadeada
-│ ├── ListSequence.cpp # Implementação da sequência
-│ └── TestSequence.cpp # Testes da sequência
-├── prints/ # Imagens dos testes
-│ ├── TAD_conjunto.png # Resultado TAD Conjunto
-│ └── TAD_sequencia.png # Resultado TAD Sequência
-└── README.md # Este relatório           
+├── Pratica_conjunto/          # TAD Conjunto (Array Dinâmico)
+│   ├── Set.hpp               # Interface do conjunto
+│   ├── ArraySet.cpp          # Implementação do conjunto
+│   └── main.cpp              # Testes do conjunto
+├── Pratica_sequencia/        # TAD Sequência (Lista Encadeada)
+│   ├── Sequence.h            # Interface da sequência
+│   ├── Node.h                # Nó da lista encadeada
+│   ├── ListSequence.cpp      # Implementação da sequência
+│   └── TestSequence.cpp      # Testes da sequência
+├── prints/                   # Imagens dos testes
+│   ├── TAD_conjunto.png      # Resultado TAD Conjunto
+│   └── TAD_sequencia.png     # Resultado TAD Sequência
+├── README.md                 # Relatório completo
+└── RELATORIO.md              # Relatório simplificado para entrega         
  TAD Conjunto (Array Dinâmico)
 Métodos Implementados
 add(element): Adiciona elemento se não existir (sem duplicatas)
