@@ -34,10 +34,11 @@ getQuantity(): Retorna a quantidade de elementos na sequência
 
 2. Prints do Terminal com Resultados dos Testes
 Testes do TAD Conjunto
-https://./prints/TAD_conjunto.png
+![Teste TAD Conjunto](./prints/TAD_conjunto.png)
+
 
 Testes do TAD Sequência
-https://./prints/TAD_sequencia.png
+![Teste TAD Sequência](./prints/TAD_sequencia.png)
 
 3. Link do GitHub
 Repositório completo com toda a implementação:
